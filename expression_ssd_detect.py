@@ -12,6 +12,7 @@ import os
 from cv2 import dnn
 from math import ceil
 
+
 image_mean = np.array([127, 127, 127])
 image_std = 128.0
 iou_threshold = 0.3
